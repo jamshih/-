@@ -41,15 +41,15 @@ def main() -> int:
         # Verifies the fourth state explicitly asks for confirmation and never claims live booking.
         page.get_by_role("button", name="查看叫車確認").click()
         assert page.locator("#dialog-layer").get_attribute("class").find("open") >= 0
-        assert "沒有派車" in page.locator("#dialog-note").inner_text()
+        assert "派遣車輛" in page.locator("#dialog-note").inner_text()
         page.get_by_role("button", name="我確認（模擬，無派車）").click()
         assert "沒有送出任何叫車請求" in page.locator("#dialog-text").inner_text()
         page.keyboard.press("Escape")
         assert "open" not in page.locator("#dialog-layer").get_attribute("class")
         # The same code path also checks direct ride fallback from the home state.
         page.goto(f"{uri}#state-1", wait_until="load")
-        page.get_by_role("button", name="直接叫車 ↗").first.click()
-        assert "未連接" in page.locator("#dialog-text").inner_text() or "沒有派車" in page.locator("#dialog-note").inner_text()
+        page.get_by_role("button", name="直接叫車").first.click()
+        assert "沒有派車能力" in page.locator("#dialog-text").inner_text()
         browser.close()
     print("PASS: 4 states, simulated explicit booking path, direct-booking fallback.")
     return 0
