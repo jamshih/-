@@ -11,6 +11,8 @@
 - [Architecture / technical assumptions](docs/ARCHITECTURE.md)
 - [Roadmap and workstream ownership](docs/SPRINT_PLAN.md)
 - [GitHub-first handoff rules](docs/HANDOFF_PROTOCOL.md)
+- [Copy-paste team launch prompts](docs/TEAM_LAUNCH_PROMPTS.md)
+- [M Coordinator](https://github.com/jamshih/-/issues/1) · [A Slides](https://github.com/jamshih/-/issues/2) · [B Prototype](https://github.com/jamshih/-/issues/3) · [C Research](https://github.com/jamshih/-/issues/4) · [D AI/Evaluation](https://github.com/jamshih/-/issues/5)
 - [Decision log](docs/DECISIONS.md)
 
 ## Submission strategy
