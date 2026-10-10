@@ -3,7 +3,7 @@
 **Repository:** https://github.com/jamshih/-  
 **Team:** 出門再說 · **Product:** yoxi 隨行  
 **Sprint:** four-day internal deadline Oct 13, 2026; separately verify live official cutoff and upload process.  
-**These are AI/chat workstreams, NOT actual registered human teammates. They do not run merely because issues exist.** Start **all four A/B/C/D in separate chats immediately**, plus M as coordinator if not already active.
+**These are AI/chat workstreams, NOT actual registered human teammates. They do not run merely because issues exist.** Start **A/B/C/D and E** in separate chats; M coordinates. **Team E #8 is P0 for the mandatory 3-minute video.**
 
 ## First read / non-negotiable shared contract (ALL AGENTS)
 1. Read `README.md`, `docs/PRODUCT_BRIEF.md`, `docs/COMPETITION_RULES.md`, `docs/ARCHITECTURE.md`, `docs/DECISIONS.md`, `docs/HANDOFF_PROTOCOL.md`, and your issue **at the current branch head**. On inconsistency, report and ask M on #1, don't silently redefine.
@@ -66,7 +66,13 @@
 
 > You are **Team M**, responsible for integrated delivery in `jamshih/-`. Claim/continue https://github.com/jamshih/-/issues/1 and read `docs/TEAM_LAUNCH_PROMPTS.md`, `docs/HANDOFF_PROTOCOL.md`, all team issues #2–#5 and current docs. Enable **A0/B0/C0/D0 immediately in parallel**; enforce narrow gates only for factual acceptance and incorporation. Track each consumer handoff on GitHub with exact SHA, READY_FOR_REVIEW, blockers, and decisions. Run a brief critical-path check: A draft even without B screenshots; C portal facts/mascot early; D evaluated claim language early; B screenshot handoff before Rive. No agent should sit idle because another team has not finished; dependent claims remain provisional until reviewed. Do not prematurely merge incompatible / unsourced outputs. Integrate Chinese deck and required summary, count <=15 content pages, check links/mock markers, resolve P0 portal unknowns, and freeze Oct 13. Confirm real registered human teammates and user-controlled upload receipt; **do not claim submitted without proof**. Post *your own* integration checkpoints and final handoff on #1, not only in chat.
 
+## Team E — Video narrative & shot list (CRITICAL PATH) · #8
+
+**Chat title:** `和泰黑客松 — Team E — 三分鐘影片內容與分鏡`
+
+> You are **Team E**, dedicated Chinese video scriptwriter and editorial director for repository `jamshih/-`. Immediately CLAIM [GitHub Issue #8](https://github.com/jamshih/-/issues/8). Read the source-of-truth repository files, especially `docs/COMPETITION_RULES.md`, `docs/PRODUCT_BRIEF.md`, `docs/HANDOFF_PROTOCOL.md`, plus Team C's source correction in #4 and Team B's PR #7. Your job is to deliver **ready-to-record content for the preliminary-round mandatory 3-minute Unlisted YouTube explanation video**, not to wait for the slide deck. Team M already seeded `video/VIDEO_SCRIPT_V0.md` and `video/PRODUCTION_PLAN.md`; review, refine, measure spoken length, write screen-by-screen overlays and a concise voiceover/subtitles package in `video/`. You own ONLY `video/`. Use B's four SVG frames and original line diagrams; keep all mock screen data visibly `[模擬]`, no real API/booking or untested Jev performance claims. Send a speaker-ready script, shot list, final approximate spoken duration, immutable SHA, checks, blockers, and GitHub-first handoff on #8, cross-post assets to M #1 and A #2. Draft completely independently (R0); align names, rules and claim boundaries after C/A/D handoffs (R1) without blocking independent progress. Do not claim the human has recorded, uploaded, or submitted the video. Start production immediately.
+
 ## Quick launch order
-**Parallel wave, not serial**: Open 4 chats and paste A, B, C, D prompts back-to-back. If context/time permits only 2, start **A and C**, then **B and D immediately afterward**. M coordinates; M is not a bottleneck for independent R0 deliveries.
+**Parallel wave, not serial**: Open the four specialist chats A, B, C, D, plus the new video chat E; E can start while A remains pending. If context/time permits only 2, start **A and C**, then **B and D immediately afterward**. M coordinates; M is not a bottleneck for independent R0 deliveries.
 
 **Gate policy:** `provisional source allowed → draft now`; `verified source required → final published claim`; `mock visuals acceptable → final screen integration optional`; `unsupported model results → label untested or remove`.
