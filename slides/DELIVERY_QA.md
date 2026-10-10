@@ -1,7 +1,7 @@
 # TEAM A — A0 Deck Artifact QA / GitHub-first handoff
 **Date:** 2026-10-10 (Asia/Taipei)  
 **Issue:** #2 · **Owner:** Team A  
-**State:** READY_FOR_REVIEW (R0) — Team D R1 claim review and Team M final approval outstanding.
+**State:** READY_FOR_REVIEW (R1 content integrated Team D #10) — Team M final approval and binary archival outstanding.
 
 ## What exists now
 - `slides/slide-copy.md`: complete Chinese summary + every main/appendix page, visual treatment, speaker cues, source provenance and explicit [模擬]/[待驗證] status.
@@ -23,7 +23,7 @@
 - Render: all 18 PDF pages rasterized into a contact sheet; visually inspected, then repaired a clipped summary row, re-exported and examined the summary at larger scale.
 - Required summary fields in prescribed order; literal `運用到的AI技術、服務或模型等資源` appears in the PowerPoint source (PDF extraction may add spaces between Chinese/Latin token runs).
 - Native Team B original SVG sha1 git blob equality manually verified with source blobs (final newline removed): 03-chat `18f9e54c525dd09b20aea836606dad67f5aeb9e8`, 04-replan `191d1b6e2c7234f7ec87702b2146f119301b060d`.
-- Final local SHA256: PPTX `7722fc299d0935925a8bbde25246efc1c7c4192273a00b19620d9012665ea15f`; PDF `079cd1947c8603a3835a1b5d6c2608e3fa69d86285d6374aa592cfb9486612c3`; generator `c473164a1f6057aa3f9da362d2c158b13e380657f2d93351b9106e4d641aa1ec`.
+- Final local SHA256: PPTX `89a22346ba6e68ebc05a2b477ef5e80f6aa5b4392590e0fb8bf8d2dd62c4d476`; PDF `ff8ff07dcdcc2da379a9aea723fdfb4ec75472856639240a5ba0c77b77b43915`; generator `82e0c6356f2b3c228cbc35884d1496ba46f384c02fd6b71d1178fc57f817cf24`.
 - No live integration, user experiment, model benchmark, stopwatch-video timing, or successful submission test was performed or implied.
 
 ## Supporting upstream evidence
@@ -34,7 +34,7 @@
 - [Team E #8 / PR #9](https://github.com/jamshih/-/pull/9), on-camera human presentation planned after Team M approval.
 
 ## R1 / QA acceptance gates
-1. **Team D #5:** independently review exact Jev NOT TESTED status, guardrail ordering, AI roles and valid KPI definitions. Provide pinned SHA to Team A and M before final approval.
+1. **Team D #5 / PR #10:** Reviewed its pinned SHA `0d7c893ae738b01459f9b678e4db06a38e6a8b8b`; updated AI slide badge (reported 22/22 synthetic JS-tool cases, Jev NOT TESTED), 7-day useful engagement and trust harm denominator. Team M must approve the final interpretation; this is not an independent run of D's tests.
 2. **Team C / M:** check all market/publisher claims against accessible sources; do not assert global novelty.
 3. **Team M / owner:** confirm 2–5 real entrants; login-verified upload file format/max size, brand/logo/IP conditions and confirmation receipt; coordinator re-downloads both PPTX/PDF attachments; rechecks 1 + 15 + 2 and Chinese fonts; stages binary files in persistent repo/Drive.
 4. **Team E / presenter:** use headline anchors but record only once claims gate passes. Video made by human entrant personally, 3-minute Unlisted link and portal upload still required.
