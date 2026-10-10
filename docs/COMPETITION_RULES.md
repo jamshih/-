@@ -1,6 +1,6 @@
 # 競賽規則與證據 / Competition requirements
 
-**Updated:** 2026-10-09. **Status:** preliminary interpretation; recheck logged-in submission portal before submitting.
+**Updated:** 2026-10-10. **Status:** organizer campus briefing now resolves mandatory preliminary video; still recheck logged-in submission portal before upload.
 
 ## Verified from the user's official 2026 和泰 AI 黑客松初賽簡報模板 (9-page PDF)
 1. Presentation **≤15 pages excluding appendix**; the **proposal summary page is explicitly excluded** from the 15-page count. Layout and typography may be redesigned.
@@ -33,3 +33,13 @@ Original source: user-supplied `2026和泰AI黑客松＿初賽簡報模板.pptx.
 - [ ] Backup PDF and editable slides, verify links and fonts.
 
 **Our internal freeze:** 2026-10-13, leaving a submission buffer.
+
+## P0 SOURCE CORRECTION — Organizer-produced 2026 campus briefing (Team C, 2026-10-09)
+**Do not rely on a slides-only interpretation.** Organizer-produced `2026校園簡報.pdf`, linked as `競賽簡報` by Ming Chuan University and read by Team C through Google Drive, explicitly requires BOTH:
+- **初賽 ≤15-page proposal slide deck** (separate preliminary template says compulsory summary excluded from 15-page cap), AND
+- **約 3 分鐘初賽解說影片**, uploaded to YouTube as **「不公開」/Unlisted**, with video title format `出題企業_作品名稱_2026 和泰 AI 黑客松`; the team leader supplies video URL alongside proposal slides in the official submission record.
+
+Organizer briefing states **proposal deck AND video URL must be submitted by 2026-10-14 13:00 Taipei time** (not merely registration). It says **2–5 real human team members**, leader ROC citizenship, no dual-team entries, and consent document if any member under 18. Initial judges: **feasibility 30%, AI integration 25%, creativity 25%, relevance 20%**. Source [PDF](https://drive.google.com/file/d/1y-0-Y5Ha6Qz3ujEGNwXkVUctpE0AFfF1/view); Team C [verified findings at immutable SHA](https://github.com/jamshih/-/blob/b7aca6c7d9ac843485b3580869ff836761054d9d/research/verified-findings.md) and [Issue #4](https://github.com/jamshih/-/issues/4#issuecomment-6080393092).
+**Limitations:** live logged-in upload portal and final permitted file types/max size/IP details are NOT VERIFIED; main registration confirmation/submission receipt is NOT VERIFIED. The 9-page preliminary template's full prototype requirement refers to finals; it does not waive the separate prelim video requirement.
+
+**Video production:** [Team E issue #8](https://github.com/jamshih/-/issues/8) owns ready-to-record [voiceover script](../video/VIDEO_SCRIPT_V0.md) and [shot list](../video/PRODUCTION_PLAN.md). A finished slide deck **must not delay** independent video script/storyboard production; B SVGs can serve as video stills.
