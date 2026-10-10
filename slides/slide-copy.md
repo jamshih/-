@@ -1,5 +1,5 @@
 # 和泰 AI 黑客松｜出門再說 — yoxi 隨行｜Team A A0 初賽簡報逐頁稿
-2026-10-10；Owner: Team A；Issue #2；**R0 / awaiting Team D #5 R1 review**.
+2026-10-10；Owner: Team A；Issue #2；**R1 draft integrated Team D PR #10 (0d7c893); awaiting Team M final approval.**
 
 **頁數規則：一頁必填摘要（不計）＋15 頁主內容（含封面及結語）＋2 頁來源附錄。總輸出 18 頁。**
 
@@ -80,7 +80,7 @@
 ## MAIN 09 / 第 10 頁：AI 技術架構
 **模型負責理解；真實世界，交給可信資料。**
 - 使用者同意 → 來源與時效檢查 → 具確定性的推播硬門檻 → 候選 Jev 與 baseline 比較 → LLM 解析意圖／調用工具 → 可信資料回傳 route/ETA/fare → schema 檢查 → 使用者確認。
-- **Jev = NOT TESTED。** 無真人評估、精準度、推論延遲或成本數據；若不能勝過規則式 baseline，就不用。
+- **Team D PR #10 提供 22/22 合成規則期望結果（JS 工具沙盒中通過；不是 Node CLI 或真實通知測試）；**Jev = NOT TESTED。**** 無真人評估、精準度、推論延遲或成本數據；若不能勝過規則式 baseline，就不用。
 - 地圖／TDX／中央氣象署等為**可研究的候選**；非持有鑰匙或已串接。**官方 yoxi 私有 API 未授權。**
 - 視覺：六段矩形架構，輸出前分清模型建議與可查證外部數據。
 - 依據：`docs/ARCHITECTURE.md`、Team C PR #6。
@@ -112,9 +112,9 @@
 
 ## MAIN 13 / 第 14 頁：KPI 與對照實驗
 **高頻，不等於高打擾。**
-- 北極星：每位週活用戶的**有效互動天數**。
-- 品質：有價值提醒 Precision；同時追查漏報。
-- 產品護欄：通知退訂／忽略／負面回饋。
+- 北極星：每位週活用戶的**七日有效互動天數**（完成真正有價值任務的不同日數，非 push 收到或 idle 開啟）。
+- 品質：真人獨立判斷有價值的送達提醒 Precision；同時追查重要事件漏報。
+- 產品護欄：每 1,000 則實際發出提醒引起之靜音／通知退訂／負面相關回饋事件。
 - 商業結果：AI 協助後自願叫車率與重複使用（需追真正交易）。
 - 實驗：規則提醒 baseline 與規則＋AI 建議對照；定義「有價值」，真人盲標、分組、設定前置 stop condition。**所有變化值尚未量測**。
 - 視覺：四行 KPI 表＋實驗黑條。依據：產品 brief。
@@ -122,7 +122,7 @@
 ## MAIN 14 / 第 15 頁：落地路線與風險
 **先驗證可信，再談規模化。**
 - 現在／初賽：四幕模擬概念、來源契約、講述與安全意圖。
-- PoC：8+ 合成案例、硬門檻／重複／過期偵測、LLM 卡片 schema。
+- PoC：22 合成案例、硬門檻／重複／過期偵測、LLM 卡片 schema。
 - 授權合作：正式合作資料來源與 yoxi 接口、真人使用者試驗。
 - 再擴展：成本、安全、可靠性、品牌授權、回退。
 - Stop gates：官方 API 權限／資料刷新／個資授權／真實 booking 確認／Jev baseline／成本安全。
@@ -143,6 +143,7 @@
 |---|---|
 | DOCUMENTED | 既有 yoxi 公開乘車能力；規則與初賽影片需求由 Team C 研究 |
 | SIMULATED | Team B 四幕 HTML/SVG；簡報納入 03-chat、04-replan 原始 SVG 圖 |
+| SYNTHETIC / TOOL-TESTED | Team D 報告 JavaScript 工具沙盒 22/22 合成規則樣本通過；不是 Jev、人類測試或上線推播 |
 | PROPOSED | 情境推播、跨運具實時決策卡、真實叫車回傳 |
 | UNTESTED | Jev、LLM 編排與測試成效 |
 | OWNER-VERIFICATION | 2–5 真人、portal 格式／大小、品牌權利、影片 Unlisted URL、實際提交回執 |
@@ -150,6 +151,6 @@
 ## Evidence boundary, R1 and handoff
 - 已發布成果不得宣稱：未部署、未接 real taxi/calendar/weather/transport APIs，沒有真實車資/ETA/交通中斷、沒有商業 KPI uplift，不存在正式合作或 brand license。
 - **Team B** 原始圖 SHA: 03-chat blob `18f9e54c525dd09b20aea836606dad67f5aeb9e8`、04-replan blob `191d1b6e2c7234f7ec87702b2146f119301b060d`。兩張原始 SVG 在 Team B PR #7 可重用。
-- **Team D #5 R1**：獨立 AI/資料可信度/量測評審；若新證據出現需更新本稿與投影片。
+- **Team D #5 / PR #10 R1**：已整合其 22 合成案例狀態、硬規則優先／Jev 不得越權、三大品質／有效互動／信任 KPI。原始 SHA `0d7c893ae738b01459f9b678e4db06a38e6a8b8b`。若新證據出現需更新本稿與投影片。
 - **Team M #1 owner action**：登入官方 portal 比對必填欄位及檔案格式／大小、真實隊員、權利條款、Unlisted 3 分鐘影片、實際上傳確認。
 - **Team E #8/#9**：使用相同核心七幕標題供真人口述錄製，不要求 AI 配音。**本 PR 不代表影片或提案已提交。**
