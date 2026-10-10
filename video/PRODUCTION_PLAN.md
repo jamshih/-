@@ -1,48 +1,28 @@
-# Video production plan — 3-minute preliminary submission (V0.1, human presenter)
+# Team E V1 — 3-minute final seven-scene storyboard（真人主講）
+**配音正本：** [VIDEO_SCRIPT_FINAL.md](VIDEO_SCRIPT_FINAL.md) · **SRT 草稿：** [SUBTITLES_DRAFT.srt](SUBTITLES_DRAFT.srt) · **真人錄製指南：** [RECORDING_GUIDE.md](RECORDING_GUIDE.md)  
+**嚴格區分：** 影片由**參賽者本人親自講解**；00:00–00:22 和 02:42–03:00 建議由本人入鏡，中間用本人錄的旁白覆蓋既有概念 SVG。**露臉是製作建議，不是已確認官方規定。** 圖像只是提案／模擬，沒有實際接入任何資料源。
 
-**Parent issue:** [Team E #8](https://github.com/jamshih/-/issues/8) · **Read-aloud script:** [VIDEO_SCRIPT_V0.md](VIDEO_SCRIPT_V0.md)  
-**Presenter is the user personally.** Team E produces script/visuals/editing guidance, not an AI-generated presenter or synthesized narration. **Status:** Script/shot plan ready for human recording; no actual video, captions, audio or submission have been produced yet.
-
-## 7-scene edit decision list
-
-| Target | Visual / what viewer sees | Voiceover source | Assets and on-screen text |
+| 時間 | 可直接剪的鏡頭/動作 | 必須逐字顯示的主標 | 逐字顯示的小字／角標 |
 | --- | --- | --- | --- |
-| **0:00–0:22** | **User on camera**, introducing the pitch; overlay logo-neutral project title and 3 questions one at a time | Script §開場 | 「為什麼只有要搭車才開 yoxi？」／「等等去哪？／幾點出門？／怎麼去？」 |
-| **0:22–0:44** | Concept product title + four-screen interactive home zoom/crop | Script §一句話解法 | [B screen 01 home](https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/01-home.svg), `出門再說｜yoxi 隨行`; subtitle `以對話為入口，而不是重做一個叫車 App` |
-| **0:44–1:16** | Calendar time and weather *hypothetical*, a push card enters screen, push taps into same conversation | Script §通知就是第一句 | [B screen 02 alert](https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/02-alert.svg) → [B screen 03 chat](https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/03-chat.svg). Overlay `通知，就是對話的第一句` and `[模擬情境]` |
-| **1:16–1:47** | On screen type '我不想淋雨'; alternate transport cards, highlight explicit taxi confirmation and 巨蛋站 | Script §不同運具 | [B screen 04 replan](https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/04-replan.svg). Fixed lower third `畫面/路線/價格均為模擬；未連接真實叫車` |
-| **1:47–2:11** | Split pictograms: transit disruption, study location. Icons/text only; don't make more app screens | Script §高頻價值 | `路線異常 → 可重新規劃`; `今天不搭車 → 也能問去哪`. If using place images, only original/rights-cleared assets |
-| **2:11–2:42** | Simple clean architecture diagram, gates light up sequentially; optional tiny Rive mascot as conceptual thumbnail *only if legally safe and already ready* | Script §可信資料 | `使用者授權→硬性通知規則→待評估 Jev→LLM 理解→可信交通資料→可操作卡片`; label `[提案架構，非正式串接]` |
-| **2:42–3:00** | **Return to user on camera** (or small speaker picture-in-picture) with 4 concise KPI words and closing statement | Script §結語 | `非叫車開啟` / `每週使用天數` / `通知關閉率` / `AI→搭乘轉換`; then `在你決定怎麼出門前，yoxi 就幫得上忙。` |
+| **00:00–00:22** | **真人對鏡頭**，暖白背景，佔畫面中間/左側；0:03 團名字幕、0:08 起三個問題輪流在右側淡入。 | **你什麼時候打開 yoxi？** → **幾點出門？怎麼走？會不會遲到？** | **出門再說｜2026 和泰 AI 黑客松提案** |
+| **00:22–00:43** | 切 Team B **01-home.svg**（長方形手機靠右；左邊放文字），0:30 框「直接叫車」，0:35 框「今晚行程」。 | **yoxi 隨行**／**不只叫車，先幫你決定怎麼走** | **保留原有快速叫車操作**／**[模擬] 概念原型｜非即時服務** |
+| **00:43–01:14** | 0:43–0:56 Team B **02-alert.svg**；0:56 用箭頭「點開提醒」；1:01–1:14 切 **03-chat.svg**，框出與提醒相同的第一句。**不必偽造真實系統通知**。 | **通知，就是對話的第一句** | **有使用者同意才考慮通知**／**18:30 高雄巨蛋・捷運巨蛋站 [模擬]**／**[模擬] 概念原型｜非即時服務** |
+| **01:14–01:46** | 先在 **03-chat.svg** 框出「我不想淋雨」，接 **04-replan.svg** 展示重排卡片與「查看叫車確認」；**不出現已派車、支付成功畫面**。 | **「我不想淋雨」→ 重新比較**／**捷運與 yoxi 都是選項** | **捷運巨蛋站｜需本人確認，絕不自動派車**／**車資、雨況、時間都是 [模擬]** |
+| **01:46–02:08** | 兩欄純原創線條圖示，左畫受阻路線箭頭、右畫讀書桌燈。**不使用未完成的額外原型手機畫面**。 | **今天不搭車，也值得打開** | **路線延誤 → 重新規劃（提案情境）**／**想讀書 → 找合適去處（提案情境）** |
+| **02:08–02:42** | 純圖形提案流程（六格依序亮起）。不使用實際 API logo、模型跑分或資料圖表。 | **AI 負責理解，可信資料負責事實** | **①同意 ②勿擾/去重/冷卻/資料新鮮度 ③Jev【未實測候選】 ④語言模型理解 ⑤授權資料【待串接】 ⑥本人確認**／**AI 不編造 ETA、車資與即時路況**／**提案架構，尚未部署** |
+| **02:42–03:00** | **切回真人對鏡頭**。先在右側出現四個 KPI，後 6 秒換片尾字卡，最後 1 秒定格。 | **衡量真正有價值的互動** → **在決定怎麼出門前，就幫得上忙** | **每週使用天數／非叫車互動／通知關閉率／後續搭乘轉換**／**預計實驗驗證，尚無成效數字**／**出門再說 × yoxi 隨行** |
 
-## Asset availability / handoffs (what is real)
-- **B assets ARE committed:** [Prototype draft PR #7](https://github.com/jamshih/-/pull/7) pinned head `9a882e9c2ee82f11135c5587e90a1b21fa27233f`; four **vector SVG storyboard images**, not claimed actual browser captures. B's HTML is interactive but browser QA/PNG exporter not yet run. Use these now.
-- **C research source:** [Research PR #6](https://github.com/jamshih/-/pull/6) last verified head `b7aca6c7d9ac843485b3580869ff836761054d9d`; primary campus briefing on video spec linked in #4. No verified official mascot rights.
-- **D architecture:** Agent not yet evidenced as claimed in #5 at time of V0; script intentionally presents Jev as experimental candidate and no performance claims.
-- **A deck:** no A-created draft found at time of V0; video can be produced from these seven scenes without a deck.
+## 確認已存在的四幅 B 素材：固定 commit（不是 browser screenshots）
+- **01-home.svg — 對話首頁：** https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/01-home.svg
+- **02-alert.svg — 模擬提醒：** https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/02-alert.svg
+- **03-chat.svg — 通知成為聊天第一句：** https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/03-chat.svg
+- **04-replan.svg — 重新排序與確認入口：** https://github.com/jamshih/-/blob/9a882e9c2ee82f11135c5587e90a1b21fa27233f/prototype/screens/04-replan.svg
 
-## How a human can make the video TODAY
-1. Open four SVG frames from B's immutable links and build a **16:9 canvas** (suggested 1920×1080 or 1280×720; verify competition video format if specified). Prefer Canva, CapCut, Keynote, or PowerPoint depending on familiarity. Never depend on inaccessible editing software.
-2. Create seven simple scenes from table. Reuse SVG crop-with-padding for 0:22–1:47; no extra animations needed. Use original line icons/shapes for other scenes. Keep [模擬] caption visible over demo screens.
-3. **The participant personally presents and records their own voice.** Capture their opening and closing on camera (optional face-on-camera variation is fine if the organizer does not require it), and record the middle as the participant's own voice over screen/demo visuals. No AI voice, cloned voice, synthetic spokesperson, or Team E as presenter. Use a quiet room, phone/laptop microphone and rehearse against 3:00. Current timings are targets, NOT measured read speed.
-4. Align scenes to narration, generate/edit Chinese captions for accuracy (proper nouns **yoxi、巨蛋站、Jev、Rive**); use music only if licensed, preferably none.
-5. Play full video: confirms the **human participant's presentation**, is comprehensible without screenshots, audible voice, no unsupported claims, sources on last frame or pinned deck appendix. Check duration and text legibility at phone size.
-6. Upload to YouTube as **「不公開」 (Unlisted)**, **not 「私人」 (Private)**. Required title pattern from campus briefing: `出題企業_作品名稱_2026 和泰 AI 黑客松`; suggested title `yoxi_yoxi隨行_2026 和泰 AI 黑客松` is **provisional** until checked against official form's enterprise display name.
-7. Open the YouTube link in a private/incognito window to verify it plays without login, then paste URL into the registered team-leader's **official submission record** with deck, before organizer deadline. Preserve screenshot of final confirmation. Only human owner can attest upload/submission.
+來源 [B PR #7](https://github.com/jamshih/-/pull/7)，**immutable `9a882e9c2ee82f11135c5587e90a1b21fa27233f`**；四幅 430×900 SVG 為**人工繪製向量故事板，不是瀏覽器擷取 PNG，更不是官方已發布 App**。B 提示：17／28 分鐘、NT$240／35、雨天、通知、18:30 模擬資料均是虛構情境；18:30 指假設抵達高雄巨蛋的時間，**巨蛋站不是凹子底站**。不把 SVG 內文字體縮小到手機也看不懂。
 
-## Visual/copy guardrails
-- **Do not** imply mock weather/route/fare are real data; speak conditionally and mark simulated screens.
-- **Do not** claim installed Google Routes/TDX/CWA/yoxi fare API, live dispatch, a calibrated Jev model, Rive official character, or evidence of higher conversion.
-- Do not depict official logos/mascots via unlicensed tracing/derivatives. Plain typed names may still be subject to event brand rules; Team C/owner checks.
-- Include quiet hours/permissions as visible concepts; avoid promising unsupported background access.
-- If A's finished slide deck arrives, **replace still scenes with deck visuals** but keep the spoken argument. Video creation must not wait.
-- Stop visual polishing if video runtime, audio quality, factual accuracy or portal submission is at risk.
-
-## Acceptance / QA log to complete
-- [ ] Script read-aloud timed (actual __ min __ sec; speaker __; date __)
-- [ ] Recorded/editable video produced (path/URL __)
-- [ ] All four B concept frames proofed or replaced; simulated data marked
-- [ ] Audio audibility + Chinese captions proofread
-- [ ] Branding/use rights & source claims reviewed by C/M
-- [ ] YouTube '不公開' URL verified playable via fresh session
-- [ ] Final deck + video URL entered, portal receipt screenshot recorded by human owner
+## 畫面編輯規範
+- 建議 1920×1080、16:9、30 fps；這是剪輯建議，非主辦指定輸出格式。主標字體 ≥54 px，副標/固定模擬標記 ≥32 px；字幕 12–20 字/行、最多兩行。手機 50% 縮小測試，切勿裁掉「[模擬]」。
+- **所有手機畫面 00:22–01:46 固定下角標** `[模擬] 概念原型｜非即時服務`。新增任何天氣/路況/時間/路線/車價卡片亦要在該卡附近標 [模擬]。人聲不能被配樂蓋過；切換只用短淡入，避免花俏轉場。
+- 片頭片尾本人親自露臉，使用**本人真人原聲**覆蓋中間四張 SVG 和簡圖；不要使用 AI 虛擬人或 TTS。是否露臉是團隊偏好而非官方硬規定。
+- 片尾**不可**聲稱已有效提升轉換率。要用「將透過實驗檢驗」與「目前無實測數據」。不含未經許可的 logo、吉祥物、Rive 動畫或外部版權照片。
+- 製作就緒 ≠ 實際錄製。時間為剪輯建議，字幕需依真人錄音重新同步。真人應先測速，確保**整片 ≤03:00**；見錄製指南。
