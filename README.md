@@ -13,12 +13,13 @@
 - [GitHub-first handoff rules](docs/HANDOFF_PROTOCOL.md)
 - [Copy-paste team launch prompts](docs/TEAM_LAUNCH_PROMPTS.md)
 - [M Coordinator](https://github.com/jamshih/-/issues/1) · [A Slides](https://github.com/jamshih/-/issues/2) · [B Prototype](https://github.com/jamshih/-/issues/3) · [C Research](https://github.com/jamshih/-/issues/4) · [D AI/Evaluation](https://github.com/jamshih/-/issues/5)
+- [E Video Content](https://github.com/jamshih/-/issues/8) · [Video narration script](video/VIDEO_SCRIPT_V0.md) · [Production shot list](video/PRODUCTION_PLAN.md)
 - [Decision log](docs/DECISIONS.md)
 
 ## Submission strategy
-**Slides are critical path.** Official preliminary template: **15-page limit excluding the compulsory proposal-summary page and appendix**; preliminary emphasizes proposal, strategy and feasibility. **Full prototype/demo is called for in finals.** We will create a small demonstrable *concept prototype* only if it does not delay the deck. Deadline from public competition announcements: **2026-10-14 13:00 Asia/Taipei**; aim for **10/13 internal freeze**.
+**Slides AND the mandatory 3-minute Unlisted YouTube explanation video are critical path.** Official preliminary template: **15-page limit excluding the compulsory proposal-summary page and appendix**; preliminary emphasizes proposal, strategy and feasibility. **Full prototype/demo is called for in finals.** We will create a small demonstrable *concept prototype* only if it does not delay the deck. Deadline from public competition announcements: **2026-10-14 13:00 Asia/Taipei**; aim for **10/13 internal freeze**.
 
-Deliverables: submission-ready Chinese deck + required summary, sources/assumptions register, 4-screen high-fidelity or clickable flow, three sample scenarios, feasibility and KPI appendix as time permits.
+Deliverables: submission-ready Chinese deck + required summary **AND 3-minute Chinese video + Unlisted YouTube URL**, sources/assumptions register, four-screen concept prototype, three simulated scenarios, feasibility and KPI appendix as time permits. See Team C's organizer campus briefing correction in `docs/COMPETITION_RULES.md`.
 
 ## Immutable UX thesis
 **「通知本身，就是對話的第一句。」** A chat-first home that starts from proactive, opted-in mobility context, offers trusted transport comparisons and context-aware UI, and retains one-tap map/price/booking confirmation. The user need not book a taxi for yoxi to be useful.
